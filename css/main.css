@@ -1,0 +1,27 @@
+body{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100px;
+    padding: 100px;
+    height: 100px;
+    background-color: teal;
+    clip-path: polygon(0 27%, 61% 27%, 60% 0%, 100% 50%, 57% 98%, 57% 69%, 0 70%);
+
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+ul li{
+    padding: 10px;
+}
+ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+} 
